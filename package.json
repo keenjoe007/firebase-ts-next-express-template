@@ -9,7 +9,7 @@
     "dev": "next src/app",
     "preserve": "yarn build-public && yarn build-functions && yarn build-app && yarn copy-deps && yarn install-deps",
     "serve": "cross-env NODE_ENV=production firebase serve",
-    "deploy": "firebase deploy",
+    "deploy": "NODE_ENV=production firebase deploy",
     "clean": "rimraf \"dist/functions\" && rimraf \"dist/public\"",
     "build-app": "next build \"src/app\"",
     "build-public": "cpx \"src/public/**/*.*\" \"dist/public\" -C",

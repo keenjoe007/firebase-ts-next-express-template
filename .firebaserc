@@ -1,5 +1,5 @@
 {
   "projects": {
-    "default": "<next-express-server>"
+    "default": "next-express-server"
   }
 }
