@@ -11,7 +11,7 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
   },
   "compileOnSave": true
 }

@@ -17,7 +17,7 @@
     "rewrites": [
       {
         "source": "**/**",
-        "function": "nextApp"
+        "function": "hosting"
       }
     ],
     "predeploy": "yarn build-public"

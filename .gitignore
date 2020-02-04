@@ -3,3 +3,4 @@ dist/
 # Firebase cache
 .firebase/
 node_modules/
+yarn-error.log
